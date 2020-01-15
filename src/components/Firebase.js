@@ -2,6 +2,10 @@ import firebase from 'firebase/app'
 
 class Firebase {
   constructor() {
+    if (firebase.apps.length) {
+      return firebase.app()
+    }
+
     firebase.initializeApp({
       apiKey: "API_KEY",
       authDomain: "AUTH_DOMAIN",
