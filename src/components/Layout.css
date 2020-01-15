@@ -1,0 +1,30 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(0, 0, 0, 0.75);
+  font-family: "Assistant", "Helvetica Neue", sans-serif;
+  margin: 0;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(0, 0, 0, 0.875);
+  font-family: "Raleway", "Helvetica Neue", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+img {
+  display: block;
+}
